@@ -1,0 +1,11 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: acne-decision-aid/index.html
+  upload: acne-decision-aid/index.html
+
+- url: /
+  static_dir: acne-decision-aid
